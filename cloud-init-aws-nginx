@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sed -i 's/Congratulations/& and Welcome to AWS PUBLIC Cloud! This instance was deployed using Terraform/' /opt/bitnami/nginx/html/index.html
